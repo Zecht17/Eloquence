@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Libre+Baskerville&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Libre+Baskerville&family=Montserrat:wght@500&family=Roboto&display=swap');
+
+div.container {
+    max-width: 1820px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #343434;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+.art-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.art-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.art-card:hover {
+    transform: scale(1.05);
+}
+
+.art-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+.art-image-one {
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+    position: relative;
+    top: 10px;
+}
+
+.art-info {
+    padding: 15px;
+}
+
+h2, p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    color: #24252a;
+}
+
+.titlepos {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    color: #ffffff;
+    position: relative;
+    top: 0px;
+}

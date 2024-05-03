@@ -1,0 +1,44 @@
+body {
+    min-height: 100vh;
+    background: url('GradientBackground.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    max-width: 720px;
+    height: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #343434;
+    border-radius: 26px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+    left: 560px;
+}
+
+.picpos {
+    width: 154;
+    height: 84;
+    position: relative;
+    top: 315px;
+    right: -100px;
+}
+
+.pos {
+    position: relative;
+    bottom: 550px;
+    left: 320px;
+}
+
+.text {
+    text-align: left;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}

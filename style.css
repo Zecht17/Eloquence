@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('GradientBackground.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #343434;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    height: 100;
+    width: 100;
+}
+
+.logosize{
+    height: 75px;
+    width: 75px;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #e2cf78;
+    transition: 0.3s;
+}
+
+.navbar a:hover:before{
+    width: 100%;
+}
+
+.pillarpos{
+    position: relative;
+    top: 490px;
+    left: 1500px;
+}
+
+.statuepos{
+    position: relative;
+    top: 123px;
+    left: 1100px;
+    rotate: -2.5deg;
+}
+
+.navbar a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar a:hover{
+    color: #e2cf78;
+}
+
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling on the body */
+}
+
+.container {
+    overflow-x: hidden; /* Prevent content inside the container from overflowing horizontally */
+}
+
+.vidcon {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #343434;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+}
+
+.vidpos{
+    width: 925px;
+    height: 575px;
+    position: relative;
+}
+

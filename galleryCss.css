@@ -1,0 +1,83 @@
+.container {
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #343434;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 50px;
+}
+
+.romepos {
+    max-width: 580px;
+    height: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #343434;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    top: 150px;
+    right: 350px;
+}
+
+.romepos:hover {
+    transform: scale(1.05);
+}
+
+.greecepos {
+    max-width: 580px;
+    height: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #343434;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    bottom: 569px;
+    left: 350px;
+}
+
+.greecepos:hover {
+    transform: scale(1.05);
+}
+
+.textColor {
+    color: white;
+    position: relative;
+    left: 180px;
+    top: 50px;
+}
+
+.romepic{
+    width: 550px;
+    height: 400px;
+    position: relative;
+    right: 5px;
+    top: 100px;
+}
+
+.greecepic{
+    width: 550px;
+    height: 400px;
+    position: relative;
+    right: 5px;
+    top: 100px;
+}
+
+.h2{
+    position: relative;
+    left: 50px;
+}
+
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling on the body */
+}
+
+.container {
+    overflow-x: hidden; /* Prevent content inside the container from overflowing horizontally */
+}
